@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+                
+                <img src="./img/photo.jpg" srcset="./img/photo@2x.jpg 2x"  alt="Photo" class="header-img">
+
+                <div class="header-desc">
+
+                    <h1 class="header-title">Даниил Шичавин</h1>
+                    <p class="header-text">Веб-разработчик,<br> создание сайтов</p>
+                    
+                    <div class="header-btns">
+                        <a href="#portfolio" class="btn">Портфолио</a>
+                        <a href="#contacts" class="btn-outline">Контакты</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        <video class="header-video" autoplay muted loop>
+            <source src="./img/video/waves.mp4">
+        </video>
+    </header>
+
+
+    <main>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio-title" id="portfolio">Портфолио</h2>
+
+                <div class="projects">
+
+                    <article class="project">
+                        <a href="view-Bootstrap.html">
+                            <img src="./img/portfolio/bootstrap.PNG" class="project-img" alt="бутстрап">
+                        </a>
+                        <h3 class="project-title">
+                            <a href="view-Bootstrap.html">Сайт на Bootstrap</a></h3>
+                    </article>
+
+                    <article class="project">
+                        <a href="https://www.figma.com/design/G7Zt5iKqZhUOhjfun2wxe5/shaurma?node-id=0-1&p=f&t=asQGXSj6UMDAxHFt-0" target="_blank">
+                            <img src="./img/portfolio/shaurma-figma.PNG" class="project-img" alt="фигма по сайту">
+                        </a>
+                            <h3 class="project-title">
+                                <a href="https://www.figma.com/design/G7Zt5iKqZhUOhjfun2wxe5/shaurma?node-id=0-1&p=f&t=asQGXSj6UMDAxHFt-0" target="_blank">Фигма по сайту</a></h3>
+                    </article>
+
+                    <article class="project">
+                        <a href="view-shaurma.html">
+                            <img src="./img/portfolio/shaurma.PNG" class="project-img" alt="Сайт по фигме">
+                        </a>
+                            <h3 class="project-title"><a href="view-shaurma.html">Сайт по фигме</a></h3>
+                        
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+                <div class="container">
+                    <h2 class="contacts-title" id="contacts">Контакты</h2>
+
+                    <div class="messangers">
+                        <a href="#!" class="messanger" target="_blank">
+                            <img src="./img/icons/telegram.svg" alt="telegram">
+                            Написать в Telegram</a>
+                        <a href="#!" class="messanger" target="_blank">
+                            <img src="./img/icons/max.png" alt="max" width="48">
+                            Отправить в Max</a>
+                        <a href="#!" class="messanger" target="_blank">
+                            <img src="./img/icons/vk.svg" alt="vk">
+                            Связаться в Вконтакте</a>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer none">
+        <div class="container">
+            <div class="footer-inner">
+                <p>Даниил Шичавин<br>HTML верстальщик, создание сайтов Ковылкино</p>
+                <p><a href="https://mrsu.ru" target="_blank">Макет свертсан в Ковылкинском филиале им. Н.П. Огарёва</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
